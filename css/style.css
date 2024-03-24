@@ -555,10 +555,27 @@ p {
 	position: relative;
 	display: block;
     text-align: center;
+    background-size: 100% auto;
 }
 .team-img .student-img{
-    width: 70%;
+    /* width: 45rem;
+    height: 30rem; */
+    width: 20em;
+    height: 20em;
+    /* height: 40rpx; */
+    background-size: 100% auto;
+    object-fit: contain;
+    margin-bottom: 1.2em;
 }
+/* .team-img .student-img img{
+    width: 40rpx;
+    height: 40rpx;
+    background-size: 100% auto;
+    object-fit: fill;
+    margin-bottom: 10rpx;
+} */
+
+
 .team-img .teacher-img{
     /* height: 300%; */
     width: 95%;
