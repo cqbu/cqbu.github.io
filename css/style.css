@@ -555,17 +555,19 @@ p {
 	position: relative;
 	display: block;
     text-align: center;
-    background-size: 100% auto;
+    /* background-size: 100% auto; */
 }
 .team-img .student-img{
     /* width: 45rem;
     height: 30rem; */
-    width: 20em;
-    height: 20em;
+    /* width: 30rem;
+    height: 30rem; */
+    width: 80%;
+    /* height: 280px; */
     /* height: 40rpx; */
-    background-size: 100% auto;
-    object-fit: contain;
-    margin-bottom: 1.2em;
+    /* background-size: 100% auto; */
+    /* object-fit: cover; */
+    margin-bottom: 2.2rem;
 }
 /* .team-img .student-img img{
     width: 40rpx;
